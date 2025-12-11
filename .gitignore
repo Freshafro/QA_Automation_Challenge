@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# Playwright browser binaries (optional - uncomment if you don't want to commit browsers)
+# .ms-playwright/
+
+# TypeScript
+*.tsbuildinfo
+*.log
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Test artifacts
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp

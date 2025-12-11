@@ -1,0 +1,19 @@
+{
+  "name": "qa_automation_challenge",
+  "version": "1.0.0",
+  "description": "You are given a small demo app consisting of: - **`host.html`** — a parent app embedding an external iframe - **`widget.html`** — a mock external search widget that behaves like a lightweight “Google Search SDK”",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@playwright/test": "^1.57.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0"
+  }
+}
