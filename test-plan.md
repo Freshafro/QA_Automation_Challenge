@@ -32,24 +32,23 @@
 1. Install dependencies: `npm install`
 2. Install Playwright browsers: `npx playwright install`
 3. Start the servers (in separate terminals):
-   # Terminal 1
+   ### Terminal 1
    npx http-server . -p 8000
    
-   # Terminal 2
+   ### Terminal 2
    npx http-server . -p 8001
    
-   
-### Running Tests
-# Run all tests
+
+### Run all tests
 npx playwright test
 
-# Run tests in headed mode (see browser)
+### Run tests in headed mode (see browser)
 npx playwright test --headed
 
-# Run a specific test file
+### Run a specific test file
 npx playwright test tests/search.spec.ts
 
-# Run tests with UI mode
+### Run tests with UI mode
 npx playwright test --ui
 
 
